@@ -1,0 +1,95 @@
+﻿<Window x:Class="SampleApp.UI.PersonEntry.PersonEntryView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:UI="clr-namespace:SampleApp.UI"
+        Title="Person Entry" Height="670" Width="400"
+        Background="#B0B0B0"
+        FocusManager.FocusedElement="{Binding ElementName=GivenNameText}">
+    <Control.Resources>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+        <UI:LogicalNotConverter x:Key="LogicalNotConverter"/>
+    </Control.Resources>
+    <Grid>
+        <DockPanel LastChildFill="True"
+               IsEnabled="{Binding State.IsProcessing, Converter={StaticResource LogicalNotConverter}}">
+            <TextBlock DockPanel.Dock="Top" Style="{StaticResource PageHeaderStyle}">Person Entry</TextBlock>
+            <StackPanel Orientation="Horizontal"
+                    DockPanel.Dock="Bottom"
+                    HorizontalAlignment="Right">
+                <Button Command="{Binding SaveCommand}"
+                    IsDefault="True">Save</Button>
+                <Button Command="{Binding CloseCommand}"
+                    IsCancel="True">Cancel</Button>
+            </StackPanel>
+
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <StackPanel>
+                    <GroupBox Header="Personal Details">
+                        <StackPanel>
+                            <HeaderedContentControl Header="Given Name">
+                                <TextBox x:Name="GivenNameText" TabIndex="0" Text="{Binding Person.GivenName, UpdateSourceTrigger=PropertyChanged}"/>
+                            </HeaderedContentControl>
+
+                            <HeaderedContentControl Header="Family Name">
+                                <TextBox Text="{Binding Person.FamilyName, UpdateSourceTrigger=PropertyChanged}"/>
+                            </HeaderedContentControl>
+
+                            <HeaderedContentControl Header="Date of Birth">
+                                <TextBox Text="{Binding Person.DateOfBirth, StringFormat=d}"/>
+                            </HeaderedContentControl>
+                        </StackPanel>
+                    </GroupBox>
+
+                    <GroupBox Header="Address">
+                        <StackPanel>
+                            <HeaderedContentControl Header="Country">
+                                <ComboBox x:Name="CountrySelector"
+                                      ItemsSource="{Binding Person.AvailableCountries}"
+                                      DisplayMemberPath="Name"/>
+                            </HeaderedContentControl>
+
+                            <HeaderedContentControl Header="City">
+                                <ComboBox x:Name="CitySelector" 
+                                      ItemsSource="{Binding ElementName=CountrySelector, Path=SelectedItem.Cities}"
+                                      SelectedItem="{Binding Person.Address.City}"
+                                      DisplayMemberPath="Name"/>
+                            </HeaderedContentControl>
+
+                            <HeaderedContentControl Header="Line 1">
+                                <TextBox Text="{Binding Person.Address.Line1, UpdateSourceTrigger=PropertyChanged}"/>
+                            </HeaderedContentControl>
+
+                            <HeaderedContentControl Header="Line 2">
+                                <TextBox Text="{Binding Person.Address.Line2, UpdateSourceTrigger=PropertyChanged}"/>
+                            </HeaderedContentControl>
+
+                            <HeaderedContentControl Header="Line 3">
+                                <TextBox Text="{Binding Person.Address.Line3, UpdateSourceTrigger=PropertyChanged}"/>
+                            </HeaderedContentControl>
+
+                            <HeaderedContentControl Header="Line 4">
+                                <TextBox Text="{Binding Person.Address.Line4, UpdateSourceTrigger=PropertyChanged}"/>
+                            </HeaderedContentControl>
+
+                            <HeaderedContentControl Header="ZipCode">
+                                <TextBox Text="{Binding Person.Address.ZipCode, UpdateSourceTrigger=PropertyChanged}"/>
+                            </HeaderedContentControl>
+                        </StackPanel>
+
+                    </GroupBox>
+                </StackPanel>
+            </ScrollViewer>
+        </DockPanel>
+        
+        <Border CornerRadius="5" Background="#C0555555"
+                Width="250"
+                Height="100"
+                Visibility="{Binding State.IsProcessing, Converter={StaticResource BooleanToVisibilityConverter}}">
+            <StackPanel VerticalAlignment="Center">
+                <TextBlock HorizontalAlignment="Center">Loading...</TextBlock>
+                <ProgressBar IsIndeterminate="True"
+                             Height="23"/>
+            </StackPanel>
+            
+        </Border>
+    </Grid>
+</Window>

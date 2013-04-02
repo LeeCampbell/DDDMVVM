@@ -1,0 +1,6 @@
+<Modules>
+  <Module PersistentId="F982E9A9-5DAD-4551-97A1-2D2F420A1E09" ModuleId="SampleApp" />
+  <Module PersistentId="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System" />
+  <Module PersistentId="4DDC0A77-35D4-400C-AD3F-447A0283A48A" ModuleId="Sample.Core" />
+  <Module PersistentId="3B75E15D-6F29-4758-BD0F-644594E63DD5" ModuleId="SampleApp.UITest" />
+</Modules>

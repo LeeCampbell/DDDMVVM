@@ -1,0 +1,60 @@
+﻿<RecentFiles>
+  <RecentFiles>
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/d:Domain/f:City.cs" caret="0" fromTop="0" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/d:UI/d:PersonEntry/f:PersonEntryView.xaml.cs" caret="21" fromTop="0" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/d:Services/f:EventLoopSchedulerWrapper.cs" caret="0" fromTop="0" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/d:Services/f:SchedulerProvider.cs" caret="0" fromTop="0" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/d:Services/f:ILocationService.cs" caret="173" fromTop="8" />
+    <File id="3B75E15D-6F29-4758-BD0F-644594E63DD5/f:UIMap.cs" caret="0" fromTop="0" />
+    <File id="3B75E15D-6F29-4758-BD0F-644594E63DD5/f:UIMap.Designer.cs" caret="893" fromTop="21" />
+    <File id="3B75E15D-6F29-4758-BD0F-644594E63DD5/f:CodedUITest1.cs" caret="2110" fromTop="35" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/d:Domain/f:ValidationBase.cs" caret="186" fromTop="6" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/d:Domain/f:Country.cs" caret="0" fromTop="0" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/f:App.xaml" caret="672" fromTop="11" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/d:Styles/f:HeaderedContentControl.xaml" caret="324" fromTop="3" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/d:Styles/f:Text.xaml" caret="4114" fromTop="35" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/d:Domain/f:ICountry.cs" caret="93" fromTop="4" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/d:Domain/f:ModelState.cs" caret="440" fromTop="13" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/d:UI/f:LogicalNotConverter.cs" caret="119" fromTop="6" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/d:UI/f:UIElementExtensions.cs" caret="107" fromTop="5" />
+    <File id="4DDC0A77-35D4-400C-AD3F-447A0283A48A/f:PropertyExtensions.cs" caret="0" fromTop="0" />
+    <File id="4DDC0A77-35D4-400C-AD3F-447A0283A48A/f:ISchedulerProvider.cs" caret="1196" fromTop="28" />
+    <File id="4DDC0A77-35D4-400C-AD3F-447A0283A48A/f:ObjectExtensions.cs" caret="1487" fromTop="24" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/d:UI/f:TextBoxBehavior.cs" caret="2954" fromTop="21" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/d:Styles/f:Button.xaml" caret="508" fromTop="7" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/d:Services/f:LocationService.cs" caret="937" fromTop="20" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/d:Domain/f:IPersonEntry.cs" caret="708" fromTop="22" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/d:Domain/f:PersonEntry.cs" caret="295" fromTop="4" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/f:App.xaml.cs" caret="0" fromTop="0" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/d:UI/d:PersonEntry/f:PersonEntryViewModel.cs" caret="2819" fromTop="23" />
+    <File id="4DDC0A77-35D4-400C-AD3F-447A0283A48A/f:DelegateCommand.cs" caret="504" fromTop="17" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/d:UI/d:PersonEntry/f:PersonEntryView.xaml" caret="1592" fromTop="28" />
+  </RecentFiles>
+  <RecentEdits>
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/d:Domain/f:ValidationBase.cs" caret="315" fromTop="9" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/d:Domain/f:Address.cs" caret="3048" fromTop="22" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/d:Domain/f:IAddress.cs" caret="364" fromTop="13" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/f:MainWindow.xaml.cs" caret="587" fromTop="22" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/d:UI/d:PersonEntry/f:PersonEntryView.xaml.cs" caret="21" fromTop="0" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/d:Domain/f:ICountry.cs" caret="199" fromTop="10" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/d:Domain/f:ICity.cs" caret="185" fromTop="9" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/d:Styles/f:Button.xaml" caret="508" fromTop="7" />
+    <File id="4DDC0A77-35D4-400C-AD3F-447A0283A48A/f:DelegateCommand.cs" caret="1663" fromTop="2" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/d:Services/f:ILocationService.cs" caret="178" fromTop="11" />
+    <File id="3B75E15D-6F29-4758-BD0F-644594E63DD5/f:CodedUITest1.cs" caret="0" fromTop="0" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/d:Styles/f:Text.xaml" caret="4114" fromTop="35" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/d:UI/f:TextBoxBehavior.cs" caret="2954" fromTop="21" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/d:Styles/f:HeaderedContentControl.xaml" caret="268" fromTop="2" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/f:App.xaml" caret="672" fromTop="11" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/f:App.xaml.cs" caret="637" fromTop="20" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/d:UI/f:UIElementExtensions.cs" caret="239" fromTop="8" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/d:UI/f:LogicalNotConverter.cs" caret="119" fromTop="6" />
+    <File id="4DDC0A77-35D4-400C-AD3F-447A0283A48A/f:ISchedulerProvider.cs" caret="1199" fromTop="32" />
+    <File id="4DDC0A77-35D4-400C-AD3F-447A0283A48A/f:ObjectExtensions.cs" caret="1487" fromTop="24" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/d:Services/f:LocationService.cs" caret="937" fromTop="20" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/d:Domain/f:PersonEntry.cs" caret="3939" fromTop="34" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/d:Domain/f:IPersonEntry.cs" caret="708" fromTop="22" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/d:UI/d:PersonEntry/f:PersonEntryViewModel.cs" caret="2819" fromTop="23" />
+    <File id="F982E9A9-5DAD-4551-97A1-2D2F420A1E09/d:UI/d:PersonEntry/f:PersonEntryView.xaml" caret="1592" fromTop="28" />
+  </RecentEdits>
+</RecentFiles>
